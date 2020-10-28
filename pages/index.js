@@ -20,7 +20,7 @@ export default function Home() {
 
       </main>
 
-      <footer className={styles.footer}>
+      <footer>
         <p>A <a href="https://butterwick.tech">butterwick.tech</a> project</p>
       </footer>
     </div>
