@@ -81,6 +81,48 @@
   margin-top: 3rem;
 }
 
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 960px;
+  margin-top: 3rem;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 960px;
+  margin-top: 3rem;
+}
+
+.textToggleBlock {
+  width: 100%;
+  padding: 1px 20px;
+  border-radius: 15px;
+}
+
+.textToggleBlock:hover {
+  cursor: pointer;
+  border-bottom: rgba(95, 95, 95, 0.226) solid 5px;
+  border-right: rgba(95, 95, 95, 0.226) solid 4px;
+  border-top: rgba(95, 95, 95, 0.226) solid 1px;
+  border-left: rgba(95, 95, 95, 0.226) solid 1px;
+}
+
+.detailsBlock * {
+  display: none;
+}
+
+.book li {
+  list-style: none;
+}
+
 .card {
   margin: 1rem;
   flex-basis: 45%;
